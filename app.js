@@ -45,6 +45,4 @@ app.use(helmet())
 app.use('/api', router)
 
 /** start server */
-app.listen(port, () => {
-    console.log(`Server started at port: ${port}`);
-});
+app.listen(port);
