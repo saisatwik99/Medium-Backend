@@ -1,0 +1,31 @@
+{
+  "name": "medium-backend",
+  "version": "1.0.0",
+  "description": "Backend for Medium",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saisatwik99/Medium-Backend.git"
+  },
+  "author": "Sai Satwik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saisatwik99/Medium-Backend/issues"
+  },
+  "homepage": "https://github.com/saisatwik99/Medium-Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.25.1",
+    "compression": "^1.7.4",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.5.0",
+    "mongoose": "^5.12.7",
+    "nodemon": "^2.0.7"
+  }
+}
