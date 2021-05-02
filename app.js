@@ -32,7 +32,7 @@ try {
     
 }
 
-let port = 5000 || process.env.PORT
+let port = process.env.PORT
 
 /** set up routes {API Endpoints} */
 routes(router)
