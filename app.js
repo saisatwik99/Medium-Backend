@@ -12,13 +12,6 @@ const router = express.Router()
 dotenv.config();
 const url = process.env.MONGODB_URI || "mongodb://localhost:27017/medium"
 
-/** configure cloudinary */
-// cloudinary.config({
-//     cloud_name: 'dpyeb9ref',
-//     api_key: '928274852559231',
-//     api_secret: 'M9-nApr1vQaf9y4yfQKXZUBYpas'
-// })
-
 cloudinary.config({
     cloud_name: process.env.CLOUD_NAME,
     api_key: process.env.API_KEY,
